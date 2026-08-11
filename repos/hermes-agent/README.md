@@ -27,6 +27,7 @@
 | 81354 | fix(display): quoted 'false' now hides show_reasoning in CLI, TUI, and the config report |
 | 81349 | fix(monitor): commit the hash before the snapshot so a failed write cannot desync them |
 | 81348 | fix(cron): quoted 'false' now disables mirror_delivery and preflight |
+| 83880 | fix(kanban): refuse session claims of dispatcher-managed tasks (#83736) |
 | 83538 | fix(cli): skill commands with instructions get queue feedback while agent is busy (#83209) |
 | 83534 | fix(desktop): artifacts page timestamps render 1970 and local images fail (#83380) |
 | 83513 | fix(cli): suspend only the CLI process on Ctrl+Z, not the process group (#83006) |
