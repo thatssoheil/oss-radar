@@ -27,6 +27,8 @@
 | 81354 | fix(display): quoted 'false' now hides show_reasoning in CLI, TUI, and the config report |
 | 81349 | fix(monitor): commit the hash before the snapshot so a failed write cannot desync them |
 | 81348 | fix(cron): quoted 'false' now disables mirror_delivery and preflight |
+| 83534 | fix(desktop): artifacts page timestamps render 1970 and local images fail (#83380) |
+| 83513 | fix(cli): suspend only the CLI process on Ctrl+Z, not the process group (#83006) |
 | 81347 | fix(terminal): keep mid-command backgrounded compounds valid shell |
 | 81345 | fix(wake): quoted 'false' now disables start_new_session instead of enabling it |
 | 81344 | fix(verify): reap the whole process group when a phase command times out |
